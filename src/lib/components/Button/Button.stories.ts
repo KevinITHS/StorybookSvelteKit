@@ -10,7 +10,7 @@ const meta = {
     component: Button,
     argTypes: {
         label: { control: "text" },
-        functionTest: {table: {disable: true}}
+        functionTest: { table: { disable: true } },
     },
     parameters: {
         design: {
@@ -32,8 +32,8 @@ export const Story1: Story = {
 
 export const Story2: Story = {
     args: {
-        label: "on:click me daddy",
-        functionTest: true
+        label: "on:what the hell bruh🔥",
+        functionTest: true,
     },
     name: "Expect on:click event forwarding",
     play: async ({ canvasElement }) => {
@@ -47,13 +47,13 @@ export const Story2: Story = {
 
 export const Story3: Story = {
     args: {
-        label: "I'm a button"
+        label: "I'm a button",
     },
     name: "Styling story",
     parameters: {
         design: {
             type: "figma",
-            url: "https://www.figma.com/proto/3SSRNqJ5QqPoz9HSWsKdR9/Hot-potato?type=design&node-id=15-595&t=u79YW8Z1TH8yC4Vt-0&scaling=min-zoom&page-id=11%3A17&starting-point-node-id=15%3A595"
+            url: "https://www.figma.com/proto/3SSRNqJ5QqPoz9HSWsKdR9/Hot-potato?type=design&node-id=15-595&t=u79YW8Z1TH8yC4Vt-0&scaling=min-zoom&page-id=11%3A17&starting-point-node-id=15%3A595",
         },
     },
 }

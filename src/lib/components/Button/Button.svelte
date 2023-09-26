@@ -6,7 +6,7 @@
 
 <style>
     button {
-        color: var(--gray-100);
-        background-color: var(--gray-800);
+        color: var(--gray-000);
+        background-color: var(--gray-900);
     }
 </style>
