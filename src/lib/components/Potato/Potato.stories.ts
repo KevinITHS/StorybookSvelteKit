@@ -5,9 +5,7 @@ import Potato from "./Potato.svelte"
 const meta = {
     title: "Components/Potato",
     component: Potato,
-    argTypes: {
-        exploded: { control: "boolean" },
-    },
+    argTypes: {},
     parameters: {
         design: {
             type: "figma",
@@ -34,8 +32,8 @@ export const Story2: Story = {
 }
 
 export const Story3: Story = {
-    args: { exploded: true },
-    name: "Exploded State",
+    args: {},
+    name: "Exploding State",
     parameters: {
         design: {
             type: "figma",
