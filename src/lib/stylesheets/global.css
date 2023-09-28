@@ -14,3 +14,18 @@ h1 {
 p {
     line-height: 1.666;
 }
+
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url("src/downloaded fonts/LuckiestGuy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Spline Sans";
+    src: url("src/downloaded fonts/SplineSans-Regular.ttf") format("truetype");
+}
+
+:root {
+    --font-family-fat: "Luckiest Guy";
+    --font-family-thin: "Spline Sans";
+}

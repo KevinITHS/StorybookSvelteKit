@@ -4,7 +4,7 @@
 
 <p class="primary thin-100">primary-thin-100</p>
 
-<style>
+<style scoped>
     .primary-fat-500 {
         font-family: var(--font-family-fat);
     }
