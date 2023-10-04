@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>It seems that you've landed wrong.. Did you mean "NPM run Storybook"?</h1>
+<p>https://storybook.js.org</p>

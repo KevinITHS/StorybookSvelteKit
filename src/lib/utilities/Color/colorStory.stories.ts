@@ -20,14 +20,3 @@ export const Story1: Story = {
         },
     },
 }
-
-// export const Story2: Story = {
-//     name: "Lightness Story",
-//     args: {},
-//     parameters: {
-//         design: {
-//             type: "figma",
-//             url: "https://www.figma.com/proto/3SSRNqJ5QqPoz9HSWsKdR9/Hot-potato?type=design&node-id=15-359&t=gA4QaOZTadDiSAlI-0&scaling=min-zoom&page-id=11%3A17&starting-point-node-id=15%3A359",
-//         },
-//     },
-// }
