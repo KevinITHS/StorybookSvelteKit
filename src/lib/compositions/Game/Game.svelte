@@ -4,6 +4,9 @@
 
 <div class="PlacementStory">
     {#if story === "Placement"}
+        <!-- TODO change to using player  component -->
+        <!-- each [0,1,2,3,4] as player -->
+        <!--             <Player> -->
         <div class="player">
             <div class="emoji-container">
                 <div class="emoji">
