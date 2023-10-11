@@ -32,7 +32,7 @@ export const Story1: Story = {
 
 export const Story2: Story = {
     args: {
-        label: "on:what the hell bruh🔥",
+        label: "on:click even forwarding",
         functionTest: true,
     },
     name: "Expect on:click event forwarding",
@@ -47,7 +47,7 @@ export const Story2: Story = {
 
 export const Story3: Story = {
     args: {
-        label: "I'm a button",
+        label: "Pass potato",
     },
     name: "Styling story",
     parameters: {

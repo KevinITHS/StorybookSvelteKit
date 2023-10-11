@@ -1,11 +1,19 @@
 <script lang="ts">
-    export let story: "Default" | "PassPotato" | "ResetGame" | "SetPlayerNames"
+    export let story: "Default" | "PassPotato" | "ResetGame" | "SetPlayerNames" = "Default"
 </script>
 
-{#if story === "Default"}{/if}
+{#if story === "Default"}
+    asdasd
+{/if}
 
-{#if story === "PassPotato"}{/if}
+{#if story === "PassPotato"}
+    asdad
+{/if}
 
-{#if story === "ResetGame"}{/if}
+{#if story === "ResetGame"}
+    dsfsdf
+{/if}
 
-{#if story === "SetPlayerNames"}{/if}
+{#if story === "SetPlayerNames"}
+    fsdfd
+{/if}

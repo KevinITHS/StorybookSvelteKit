@@ -1,17 +1,24 @@
 import type { Meta, StoryObj } from "@storybook/svelte"
 import hotPotatoStory from "./hotPotatoStory.svelte"
 
-const meta: Meta = {
+const meta = {
     title: "Utilities/hotPotatoStore",
     component: hotPotatoStory,
-}
+    argTypes: {},
+    parameters: {
+        design: {
+            type: "figma",
+            url: "",
+        },
+    },
+} satisfies Meta<hotPotatoStory>
 
 export default meta
 
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-    args: {},
+    args: { story: "Default" },
     name: "Default Story",
     parameters: {
         design: {
@@ -22,7 +29,7 @@ export const Default: Story = {
 }
 
 export const PassPotato: Story = {
-    args: {},
+    args: { story: "PassPotato" },
     name: ".passPotato() Story",
     parameters: {
         design: {
@@ -33,7 +40,7 @@ export const PassPotato: Story = {
 }
 
 export const ResetGame: Story = {
-    args: {},
+    args: { story: "ResetGame" },
     name: ".resetGame() Story",
     parameters: {
         design: {
@@ -44,7 +51,7 @@ export const ResetGame: Story = {
 }
 
 export const SetPlayerNames: Story = {
-    args: {},
+    args: { story: "SetPlayerNames" },
     name: ".setPlayerNames() Story",
     parameters: {
         design: {
